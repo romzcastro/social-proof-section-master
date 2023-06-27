@@ -45,8 +45,8 @@ select {
   --fw-semi: 400;
 }
 body {
-  background-image: url(/images/bg-pattern-top-mobile.svg),
-    url(/images/bg-pattern-bottom-mobile.svg);
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-mobile.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   display: flex;
@@ -176,8 +176,8 @@ footer {
 }
 @media screen and (min-width: 48em) {
   body {
-    background-image: url(/images/bg-pattern-top-desktop.svg),
-      url(/images/bg-pattern-bottom-desktop.svg);
+    background-image: url(../images/bg-pattern-top-desktop.svg),
+      url(../images/bg-pattern-bottom-desktop.svg);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     background-size: fill;
